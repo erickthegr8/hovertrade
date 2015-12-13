@@ -1,0 +1,6 @@
+framework module Pods_hovertrade {
+  umbrella header "Pods-hovertrade-umbrella.h"
+
+  export *
+  module * { export * }
+}
