@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let rootTabContoller = UITabBarController()
     
-    rootTabContoller.viewControllers = [MyVideo(), MyExplore()]
+    rootTabContoller.viewControllers = [MyVideo(), MyExplore(), BuyPage()]
     
     window?.rootViewController = rootTabContoller
     
